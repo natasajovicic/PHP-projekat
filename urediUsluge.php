@@ -86,23 +86,23 @@ if (isset($_POST['NazivUsluge'])) {
 
     <div class="container">
         <div id="content_left">
-            <h1 class="text-center">Unos usluga</h1>
 
             <div class="box">
 
                 <p>
                 <form class="form-group"  action="" method="POST" name="unos" >
-                    <p>Naziv usluge</p>
+                <br><br>
+                    <p>Naziv usluge:</p>
                     <input class="form-control" type="text" name="NazivUsluge" >
-                    <p>Salon u kome je dostupna usluga</p>
+                    <p>Salon u kome je dostupna usluga:</p>
                     <select class="form-control" id="saloni" name="Beauty_salonID">
                     </select>
-                    <p>Opis</p>
+                    <p>Opis:</p>
                     <textarea name="OpisUsluge"></textarea> 
                     <script>
                         CKEDITOR.replace('OpisUsluge');
                     </script>
-                    <p>Cena</p>
+                    <p>Cena:</p>
                     <input type="text" class="form-control" name="Cena" >
                     <p></p><br><br>
                     <button type="submit" class="form-control" class="btn btn-danger">Sacuvaj</button>

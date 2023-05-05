@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	$('#sort').change(function() {
-		document.location.href = 'http://localhost/PHPdomaci/index.php?sort=' + $(this).val();
+		document.location.href = 'http://localhost/iteh1/proizvodi.php?sort=' + $(this).val();
 	});
 	
 	$('.link_delete').click(function() {

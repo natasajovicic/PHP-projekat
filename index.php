@@ -43,7 +43,7 @@
                             ispis += '<li value=' + podaci[i].Beauty_salonID + '>*' + podaci[i].Naziv + '</li>';
 
                         }
-                        ispis += '<a style="color:blue" href="urediBeautySalon.php">+ Dodaj novi beauty salon</a>';
+                        ispis += '<a style="color:blue" href="urediBeautySalon.php">+ Uredi ili dodaj novi beauty salon</a>';
                         $('#beauty_salon').html(ispis);
                     });
                     
@@ -122,7 +122,7 @@
                 <div class="menu"> <a class="toggleMenu" href="#"><img src="image/logo.png" alt="" /> </a>
                     <ul class="nav" id="nav">
                         <li><a href="index.php">Pocetna strana</a></li>
-                        <li><a href="urediUsluge.php">Uredjivanje usluga</a></li>
+                        <li><a href="urediUsluge.php">Uredi usluge</a></li>
                     </ul>
                </div>   
         
@@ -134,7 +134,7 @@
         <div class="about">
             <div class="container">
                 <section class="title-section">
-                    <h1 class="title-header text-center"> Dostupne usluge </h1>
+                    <h1 class="title-header text-center"> Izaberite usluge </h1>
                 </section>
                 <button class="btn" onclick="sortDesc()">Sortiraj opadajuce</button>
                 <button class="btn" onclick="sortAsc()">Sortiraj rastuce</button>

@@ -67,15 +67,15 @@ if (isset($_POST['Naziv'])) {
 
     <div class="container">
         <div id="content_left">
-            <h1 class="text-center">Unos beauty salona</h1>
 
             <div class="box">
                 <p>
 
                 <form class="form-group"  action="" method="POST" name="unos" >
+                <br><br>
                     <p>Naziv salona</p>
                     <input class="form-control" type="text" name="Naziv" >
-                    <p></p><br><br>
+                    <p></p><br>
                     <button type="submit" class="form-control" class="btn btn-danger">Sacuvaj</button>
                 </form>  
 
@@ -87,4 +87,3 @@ if (isset($_POST['Naziv'])) {
             </div>
         </div>
     </div>
-?>
