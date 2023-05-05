@@ -23,9 +23,9 @@
                             ispis += '<div class="blog_grid">' +
                                     '<h2 class="post_title">' + podaci[i].NazivUsluge + '</h2>' +
                                     '<ul class="links">' +
-                                    '<li><i class="fa fa-check"></i>' + podaci[i].Beauty_salonID + '</li><br>' +
+                                    '<li><i class="fa fa-check"></i> ' + podaci[i].Beauty_salonID + '</li><br>' +
                                     '<li><i class="fa fa-book"></i> ' + podaci[i].OpisUsluge + '</li><br>' +
-                                    '<li><i class="fa fa-money"></i>' + podaci[i].Cena + '</li>' +
+                                    '<li><i class="fa fa-money"></i> ' + podaci[i].Cena + '</li>' +
                                     '</ul>' +
                                     '</div>';
                         }
@@ -58,9 +58,9 @@
                                 ispis += '<div class="blog_grid">' +
                                         '<h2 class="post_title">' + podaci[i].NazivUsluge + '</h2>' +
                                         '<ul class="links">' +
-                                        '<li><i class="fa fa-money"></i>' + podaci[i].Cena + '</li>' +
+                                        '<li><i class="fa fa-money"></i> ' + podaci[i].Cena + '</li>' +
                                         '<li><i class="fa fa-book"></i> ' + podaci[i].OpisUsluge + '</li>' +
-                                        '<li><i class="fa fa-check"></i>' + podaci[i].Beauty_salonID + '</li>' +
+                                        '<li><i class="fa fa-check"></i> ' + podaci[i].Beauty_salonID + '</li>' +
                                         '</ul>' +
                                         '</div>';
                             }
@@ -78,9 +78,9 @@
                                 ispis += '<div class="blog_grid">' +
                                         '<h2 class="post_title">' + podaci[i].NazivUsluge + '</h2>' +
                                         '<ul class="links">' +
-                                        '<li><i class="fa fa-money"></i>' + podaci[i].Cena + '</li>' +
+                                        '<li><i class="fa fa-money"></i> ' + podaci[i].Cena + '</li>' +
                                         '<li><i class="fa fa-book"></i> ' + podaci[i].OpisUsluge + '</li>' +
-                                        '<li><i class="fa fa-check"></i>' + podaci[i].Beauty_salonID + '</li>' +
+                                        '<li><i class="fa fa-check"></i> ' + podaci[i].Beauty_salonID + '</li>' +
                                         '</ul>' +
                                         '</div>';
                             }
@@ -101,9 +101,9 @@
                                 ispis += '<div class="blog_grid">' +
                                         '<h2 class="post_title">' + podaci[i].NazivUsluge + '</h2>' +
                                         '<ul class="links">' +
-                                        '<li><i class="fa fa-money"></i>' + podaci[i].Cena + '</li>' +
+                                        '<li><i class="fa fa-money"></i> ' + podaci[i].Cena + '</li>' +
                                         '<li><i class="fa fa-book"></i> ' + podaci[i].OpisUsluge + '</li>' +
-                                        '<li><i class="fa fa-check"></i>' + podaci[i].Beauty_salonID + '</li>' +
+                                        '<li><i class="fa fa-check"></i> ' + podaci[i].Beauty_salonID + '</li>' +
                                         '</ul>' +
                                         '</div>';
                             }
