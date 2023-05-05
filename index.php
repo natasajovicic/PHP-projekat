@@ -121,7 +121,7 @@
                 <div class="logo"> <a href="index.php"><img src="image/logo.png" alt="Beauty salon"></a> </div>
                 <div class="menu"> <a class="toggleMenu" href="#"><img src="image/logo.png" alt="" /> </a>
                     <ul class="nav" id="nav">
-                        <li><a href="index.php">Pocetna strana</a></li>
+                        <li><a href="index.php">Početna strana</a></li>
                         <li><a href="urediUsluge.php">Uredi usluge</a></li>
                     </ul>
                </div>   
@@ -136,8 +136,8 @@
                 <section class="title-section">
                     <h1 class="title-header text-center"> Izaberite usluge </h1>
                 </section>
-                <button class="btn" onclick="sortDesc()">Sortiraj opadajuce</button>
-                <button class="btn" onclick="sortAsc()">Sortiraj rastuce</button>
+                <button class="btn" onclick="sortDesc()">Sortiraj opadajuće</button>
+                <button class="btn" onclick="sortAsc()">Sortiraj rastuće</button>
             </div>
         </div><br>
 
